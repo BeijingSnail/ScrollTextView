@@ -132,4 +132,8 @@ public class DoubleVertical extends ViewSwitcher {
         this.mSpace = space;
     }
 
+    public void stop() {
+        mHandler.removeMessages(0X111);
+    }
+
 }
